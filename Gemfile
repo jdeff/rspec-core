@@ -27,7 +27,7 @@ group :documentation do
 end
 
 platforms :ruby_18, :jruby do
-  gem 'json'
+  gem 'json', '< 2.0.0'
 end
 
 platforms :jruby do
